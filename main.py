@@ -9,7 +9,7 @@ class MainApp(BaseApp):
         self.books = []
 
 
-if name == "__main__":
+if __name__ == "__main__":
     app = MainApp()
     app.run()
 
